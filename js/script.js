@@ -13,6 +13,7 @@ $(document).ready(function () {
 
         } else {
             $('.navbar').removeClass('scrolled');
+            $('.navbar').removeClass('next-scrolled');
         }
 
 
