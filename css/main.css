@@ -1,0 +1,263 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: 'Nunito';
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #B4b4b4;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.navbar.scrolled {
+  background: white;
+}
+
+.navbar.scrolled .navbar-brand a {
+  color: black;
+  cursor: pointer;
+}
+
+.navbar.scrolled .side-left ul li a:hover,
+.navbar.scrolled .side-right ul li a:hover {
+  color: rgba(233, 177, 22, 0.877);
+}
+
+.navbar.scrolled .side-left ul li .active,
+.navbar.scrolled .side-right ul li .active {
+  color: rgba(233, 177, 22, 0.877);
+}
+
+.navbar.scrolled.next-scrolled {
+  padding: 20px 25px;
+}
+
+.navbar {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 100%;
+  padding: 40px 25px;
+  height: 20px;
+  -webkit-transition: .3s ease-in;
+  transition: .3s ease-in;
+}
+
+.navbar .navbar-brand {
+  font-size: 25px;
+}
+
+.navbar .navbar-brand a {
+  color: white;
+  cursor: pointer;
+}
+
+.navbar .side-left,
+.navbar .navbar-brand,
+.navbar .side-right {
+  margin-right: 40px;
+  text-transform: capitalize;
+}
+
+.navbar .side-left ul li,
+.navbar .side-right ul li {
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 16px;
+}
+
+.navbar .side-left ul li a:hover,
+.navbar .side-right ul li a:hover {
+  color: white;
+}
+
+.navbar .side-left ul li .active,
+.navbar .side-right ul li .active {
+  color: white;
+}
+
+.jumbotron {
+  background: url(../img/credo_img_1.jpg);
+  height: 800px;
+  background-size: 2000px;
+  background-position: -340px -450px;
+}
+
+.jumbotron .profile {
+  padding-top: 160px;
+  padding-left: 130px;
+  color: white;
+  width: 40%;
+}
+
+.jumbotron .profile h1,
+.jumbotron .profile p,
+.jumbotron .profile a {
+  margin-bottom: 30px;
+}
+
+.jumbotron .profile h1 {
+  font-size: 50px;
+}
+
+.jumbotron .profile .profession {
+  color: #6C757D;
+  text-transform: capitalize;
+  font-size: 20px;
+  word-spacing: 20px;
+}
+
+.jumbotron .profile .content {
+  font-size: 20px;
+  line-height: 1.9;
+}
+
+.jumbotron .profile .btn {
+  text-transform: capitalize;
+  background: #FAB95B;
+  color: white;
+  padding: 13px 28px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  border-radius: 30px;
+}
+
+.jumbotron .profile .btn:hover {
+  background: black;
+}
+/*# sourceMappingURL=main.css.map */
